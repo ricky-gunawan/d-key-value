@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"dkv/internal/raft"
+	"github.com/ricky-gunawan/d-key-value/internal/raft"
 )
 
 type testMember struct {

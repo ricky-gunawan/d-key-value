@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	"dkv/internal/api"
-	"dkv/internal/raft"
+	"github.com/ricky-gunawan/d-key-value/internal/api"
+	"github.com/ricky-gunawan/d-key-value/internal/raft"
 )
 
 func main() {
