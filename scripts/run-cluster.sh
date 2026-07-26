@@ -32,7 +32,7 @@ for number in 1 2 3; do
   PIDS+=("$!")
 done
 
-echo "Three-node dkv cluster started on ports 9001, 9002, and 9003."
+echo "Three-node d-key-value cluster started on ports 9001, 9002, and 9003."
 echo "Inspect it with: curl -s http://127.0.0.1:9001/v1/status"
 echo "Logs and durable state are under data/n{1,2,3}/. Press Ctrl-C to stop."
 

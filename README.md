@@ -1,6 +1,6 @@
-# dkv
+# d-key-value
 
-`dkv` is a small, strongly consistent distributed key-value database written in
+`d-key-value` is a small, strongly consistent distributed key-value database written in
 Go. It is a learning implementation of the central idea behind etcd: a replicated
 state machine whose command log is ordered by the Raft consensus algorithm.
 
